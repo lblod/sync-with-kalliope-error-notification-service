@@ -16,12 +16,12 @@
 <p style="margin:0; font-family:sans-serif; letter-spacing:normal; line-height:1.6;"><b>Er is een fout opgetreden bij het verwerken van een Kalliope aanvraag.</b></p>
 <p style="margin:0; font-family:sans-serif; letter-spacing:normal; line-height:1.6;">Tijdens het verwerken van een Kalliope aanvraag die wij ontvangen hebben op {{date}}, deed zich de volgende onverwachte fout voor:</p>
 
-<div style="background-color: lightgrey">
+<div style="border: solid; border-color: red; background-color: lightgrey">
 <pre>
-    {{message}}
-    {{stacktrace}}
+{{message}}
+{{stacktrace}}
 
-    Affected resource: {{uri}}
+Affected resource: {{uri}}
 </pre>
 </div>
 <p style="margin:0; font-family:sans-serif; letter-spacing:normal; line-height:1.6;">Als deze fout zich blijft voordoen, aarzel dan niet om contact met ons op te nemen!</p><br><br>
