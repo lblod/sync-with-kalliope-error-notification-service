@@ -42,8 +42,8 @@ services:
 
 ### Environment variables
 
-- SENDER
-- RECIPIENT
+- MESSAGE_FROM
+- MESSAGE_TO
 - EMAIL_GRAPH 
 - EMAIL_FOLDER
    
