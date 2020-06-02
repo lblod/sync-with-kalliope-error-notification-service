@@ -1,0 +1,22 @@
+{
+  "name": "sync-with-kalliope-error-notification-service",
+  "version": "0.1.0",
+  "description": "",
+  "dependencies": {
+    "@lblod/mu-auth-sudo": "^0.2.0",
+    "lodash.flatten": "^4.4.0",
+    "body-parser": "1.19.0",
+    "handlebars": "4.7.6",
+    "fs-extra": "8.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lblod/sync-with-kalliope-error-notification-service.git"
+  },
+  "author": "redpencil.io",
+  "license": "MIT"
+}
