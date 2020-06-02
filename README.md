@@ -10,6 +10,9 @@ To add the service to your stack, add the following snippet to docker-compose.ym
 services:
   harvesting-import:
     image: lblod/sync-with-kalliope-error-notification:x.x.x
+  environment:
+    MESSAGE_FROM: "example@email.com"
+    MESSAGE_TO: "example@email.com"
 ```
 
 ## Configuration
@@ -42,10 +45,10 @@ services:
 
 ### Environment variables
 
-- MESSAGE_FROM
-- MESSAGE_TO
-- EMAIL_GRAPH 
-- EMAIL_FOLDER
+- MESSAGE_FROM: sender of the email. NO Defaults implemented.
+- MESSAGE_TO: recipient of the email. NO Defaults implemented.
+- EMAIL_GRAPH: refers to the graph where the emails will be stored. Defaults to <http://mu.semte.ch/graphs/system/email>.
+- EMAIL_FOLDER: refers to the folder that the emails will be linked to. Defaults to <http://data.lblod.info/id/mail-folders/2>, which is the OUTBOX.
    
 ## REST API
 
