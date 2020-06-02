@@ -2,7 +2,7 @@
 
 Microservice that harvests errors which happened while processing messages from Kalliope and creates associated emails.
 
-##Installation
+## Installation
 
 To add the service to your stack, add the following snippet to docker-compose.yml:
 

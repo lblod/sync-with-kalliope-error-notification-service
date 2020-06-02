@@ -1,7 +1,7 @@
 {
   "name": "sync-with-kalliope-error-notification-service",
   "version": "0.1.0",
-  "description": "",
+  "description": "Microservice that harvests errors which happened while processing messages from Kalliope and creates associated emails.",
   "dependencies": {
     "@lblod/mu-auth-sudo": "^0.2.0",
     "lodash.flatten": "^4.4.0",
