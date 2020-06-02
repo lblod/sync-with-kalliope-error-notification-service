@@ -13,17 +13,20 @@
 
 <body>
 <p style="margin:0; font-family:sans-serif; letter-spacing:normal; line-height:1.6;">Beste</p><br/><br/>
-<p style="margin:0; font-family:sans-serif; letter-spacing:normal; line-height:1.6;"><b>Er is een fout opgetreden bij het verwerken van uw recente Kalliope aanvraag.</b></p>
-<p style="margin:0; font-family:sans-serif; letter-spacing:normal; line-height:1.6;">Tijdens het verwerken van uw Kalliope aanvraag op {{date}}, deed zich de volgende fout voor:</p>
+<p style="margin:0; font-family:sans-serif; letter-spacing:normal; line-height:1.6;"><b>Er is een fout opgetreden bij het verwerken van een Kalliope aanvraag.</b></p>
+<p style="margin:0; font-family:sans-serif; letter-spacing:normal; line-height:1.6;">Tijdens het verwerken van een Kalliope aanvraag die wij ontvangen hebben op {{date}}, deed zich de volgende onverwachte fout voor:</p>
+
+<div style="background-color: lightgrey">
 <pre>
     {{message}}
     {{stacktrace}}
 
-    for <{{uri}}>
+    Affected resource: {{uri}}
 </pre>
+</div>
 <p style="margin:0; font-family:sans-serif; letter-spacing:normal; line-height:1.6;">Als deze fout zich blijft voordoen, aarzel dan niet om contact met ons op te nemen!</p><br><br>
 
 <p style="margin:0; font-family:sans-serif; letter-spacing:normal; line-height:1.6;">Het LBLOD ontwikkelingsteam</p><br/><br/>
-<p style="color:gray; margin:0; line-height:1.6; font-family:sans-serif; letter-spacing:normal; font-size:14px;">Opgelet, reageren op deze mail kan niet. Voor vragen over het Loket voor Lokale Besturen, mail naar <a href="mailto:loketlokaalbestuur@vlaanderen.be" target="_blank">loketlokaalbestuur@vlaanderen.be</a>. Voor inhoudelijke vragen kan u mailen naar het algemeen mailadres <a href="mailto:binnenland@vlaanderen.be" target="_blank">binnenland@vlaanderen.be</a>.</p>
+<p style="color:gray; margin:0; line-height:1.6; font-family:sans-serif; letter-spacing:normal; font-size:14px;">Opgelet, reageren op deze mail kan niet. Voor verdere hulp, mail naar <a href="mailto:loketlokaalbestuur@vlaanderen.be" target="_blank">loketlokaalbestuur@vlaanderen.be</a>.</p>
 </body>
 </html>
