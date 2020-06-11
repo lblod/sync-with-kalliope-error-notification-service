@@ -19,8 +19,8 @@ app.get('/', function (req, res) {
 });
 
 app.post('/delta', async function (req, res, next) {
+  const tasks = new Delta(req.body).getInsertsFor(TRIGGER_PREDICATE, TRIGGER_OBJECT);
   try {
-    const tasks = new Delta(req.body).getInsertsFor(TRIGGER_PREDICATE, TRIGGER_OBJECT);
     if (!tasks.length) {
       console.log('Delta dit not contain any tasks for me to process, awaiting the next batch!');
       return res.status(204).send();
